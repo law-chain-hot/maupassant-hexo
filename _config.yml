@@ -100,17 +100,17 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  - page: movie_book
+    directory: movie_book/
+    icon: fa-book
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, recent_comments and links.
-  - search
   - category
-  - tag
   - recent_posts
-  - recent_comments
-  - links
+  # - tag
+  # - search
+  # - recent_comments
+  # - links
 
 links:
   - title: site-name1
